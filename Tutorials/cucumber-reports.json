@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T07:26:21.413Z",
+        "line": 6,
+        "name": "LoginSuccess",
+        "description": "",
+        "id": "login;loginsuccess",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3445000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username",
+            "match": {
+              "location": "Stepfile.user_enters_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password",
+            "match": {
+              "location": "Stepfile.user_enters_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 860300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks login button",
+            "match": {
+              "location": "Stepfile.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Stepfile.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Cucumberdemo/Tutorials/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
